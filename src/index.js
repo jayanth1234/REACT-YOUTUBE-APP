@@ -7,7 +7,7 @@ import VideoList from './components/video_list';
 import SearchBar from './components/search_bar';
 import VideoDetail from './components/video_detail';
 
-const API_KEY = 'AIzaSyBGIWbErwRn2kdlJ-csWbEXEYbPuCtHaKk';
+const API_KEY = 'AIzaSyAVWFX7odokegqXy26__jvMrIF3oB3oXOo';
 
 class App extends Component{
 
@@ -19,7 +19,7 @@ class App extends Component{
             selectedVideo: null
         };
 
-        this.videoSearch('taquila');
+        this.videoSearch('Philosophy');
     }
 
     videoSearch(term){
